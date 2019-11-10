@@ -1,0 +1,768 @@
+*{ 
+    box-sizing: border-box;
+    }
+
+.body {
+    margin: 0 auto;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 auto;
+    background-image: url(../img/IMG_20181006_184222_040.png);
+    background-repeat: no-repeat;
+    background-color: lightsteelblue;
+    max-width: 1080px;
+}
+
+.banner {
+    background-image: url("../img/banner.png");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.banner-informacoes  {
+    padding-top: 30vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-align-last: center;
+}   
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin: 0;
+}
+    
+.banner-informacoes p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 0.45em;
+}
+
+.banner-informacoes a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 0rem;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 0.50em;
+}
+
+.banner-informacoes a:hover {
+    background-color: #f39c12;
+    border-radius: 0rem;
+    color: white;
+    text-align-last: center;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 0.50em;
+}
+
+.sobre-mim, .redes-sociais {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding top: 5em;
+    font-family: 'Slabo 27px', serif;
+    text-align: justify;
+} 
+
+.redes-sociais,
+.sobre-mim {
+    max-width: 1098px;
+    margin: 0 auto;
+    padding: 3rem 0 0;
+}
+    
+.Sobre-mim_habilidades {
+    display: flex;
+    color:black; 
+    flex-wrap: initial;
+}
+
+.Sobre-mim_habilidades_titulo {
+    max-width: 1098px;
+    margin-right: 5rem;
+    color: black; 
+    margin-bottom: 1.2rem;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Sobre-mim_habilidades_titulo p {
+    max-width: 1098px;
+    margin-right: 5rem; 
+    color: black; 
+    margin-bottom: 1.2rem;
+    padding: 10px;
+    margin-bottom: 30px;
+    line-height: 23px;
+}
+
+.Sobre-mim_habilidades_item {
+    max-width: 1098px;
+    margin-right: 5rem;
+    color: black; 
+    margin-bottom: 1.2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Sobre-mim_habilidades_item ul {
+    margin-top: 20px;
+    padding: 10px;
+    align-content: stretch;
+    align-items: baseline;
+    justify-content: space-around;
+    line-height: 25px;
+}
+
+.Sobre-mim_habilidades_item h3 {
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-left: 6vh;
+}
+
+/*REDES SOCIAIS */
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    
+}
+
+.redes-sociais_item_facebook img {
+    max-width: 10vh ;
+}
+
+.redes-sociais_item_linkedin img {
+    max-width: 10vh;
+}
+
+.redes-sociais_item_instagram img {
+    max-width: 10vh;
+}
+
+.redes-sociais_item_cv img {
+    max-width: 10vh;
+}
+
+.Sobre-mim_habilidades_titulo h2{
+    font-size: 16px;
+    color:black;
+    margin-bottom: 20px;
+    font-weight: bold;  
+    margin-left: 2vh;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0px black;
+}
+
+.redes-sociais_item_facebook {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-left: 45vh;
+    margin-right: 8vh;
+}
+
+.redes-sociais_item_instagram {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-right: 8vh;
+}
+
+.redes-sociais_item_linkedin {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-right: 8vh;
+}
+
+.redes-sociais_item_cv{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-right: 8vh;
+}
+  
+.container {
+    width: 100%;
+    margin: 3vh;
+  }
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 10vh;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    padding: 4vh;
+}
+
+.img-responsive {
+    width: 100%;  
+    max-width: 100%;  
+    height: auto; 
+    display: block;
+}
+
+
+@media (max-width: 1080px) {
+    .box {
+      max-width: 1080px;
+      background-color:turquoise;
+    }
+
+    .banner-informacoes {
+        margin-right: 10vh;
+        padding-top: 20%;
+        margin-left: 10vh;
+    }
+
+    
+    .Sobre-mim_habilidades {
+        margin-left: 3vh;   
+        display: flex;
+        flex-direction: column;
+        margin-right: 2vh;
+        max-width: 1080px;
+        margin-top: -50px;
+    }
+
+    .Sobre-mim_habilidades_titulo h2 {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+
+    .Sobre-mim_habilidades_titulo p {
+        margin-right: 1.5vh;
+        font-size: 1.3em;
+        line-height: 5vh;
+    }
+
+    .Sobre-mim_habilidades_item h3 {
+        margin-left: 4vh;
+        margin-top: 1vh;
+        font-size: 1.5em;
+    }
+
+    .Sobre-mim_habilidades_item  {
+        margin-left: -2vh;
+        margin-top: 15px;
+        font-size: 1.1em;
+        line-height: 5vh;
+    }
+
+    .Sobre-mim_habilidades_item ul {
+        margin-left: 3vh;
+        font-size: 1.2em;
+        line-height: 5vh;
+    }
+
+    .redes-sociais {
+        padding: 2vh;
+        align-content: space-around;
+    }
+
+    .redes-sociais_item_facebook img {
+        max-width: 6vh;
+    }
+
+    .redes-sociais_item_linkedin img {
+        max-width: 6vh;
+    }
+    
+    .redes-sociais_item_instagram img {
+        max-width: 6vh;
+    }
+
+    .redes-sociais_item_cv img {
+        max-width: 6vh;
+    }
+
+    .redes-sociais_item_facebook {
+        margin-left: 30vh;
+    }
+
+    .sobre-mim {
+        max-width: 1080px;
+        margin-right: 3px;
+        margin-left: 8vh;
+        display: flex;
+    }
+     
+    footer p {
+       font-size: 15px;
+       margin-left: initial;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .box {
+      max-width: 768px;
+      background-color:turquoise;
+    }
+
+    .banner {
+        background-size: initial;
+    }
+
+    .banner-informacoes {
+        margin-right: 13vh;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30%;
+        margin-left: 10vh;
+    }
+
+    .banner-informacoes p {
+        font-size: 30px;
+    }
+    
+    .branding h1 {
+        font-size: 1.5em;
+    }
+
+    .Sobre-mim_habilidades {
+        margin-left: -2vh;   
+        display: flex;
+        flex-direction: column;
+        margin-right: 6vh;
+        max-width: 760px;
+    }
+
+    .Sobre-mim_habilidades_titulo {
+        max-width: 100%;
+        margin-right: 1vh;
+        margin-left: 0vh;
+    }
+
+    .Sobre-mim_habilidades_titulo h2 {
+        font-size: 1.5em;
+    }
+
+    .Sobre-mim_habilidades_titulo p {
+        margin-right: 1vh;
+        font-size: 1.3em;
+    }
+
+    .Sobre-mim_habilidades_item h3 {
+        margin-left: 4vh;
+        margin-top: 0.2vh;
+        font-size: 1.3em;
+    }
+
+    .Sobre-mim_habilidades_item  {
+        margin-left: -3h;
+        margin-top: 10px;
+        font-size: 1.1em;
+    }
+
+    .redes-sociais_item_facebook img {
+        max-width: 7vh;`
+        
+    }
+
+    .redes-sociais_item_linkedin img {
+        max-width: 7vh;
+        
+    }
+    
+    .redes-sociais_item_instagram img {
+        max-width: 7vh;
+        
+    }
+
+    .redes-sociais_item_cv img {
+        max-width: 7vh;
+    }
+
+    .redes-sociais_item_facebook {
+        margin-left: 5vh;
+    }
+
+    .sobre-mim {
+        max-width: 768px;
+        margin-right: 3px;
+        margin-left: 5vh;
+        display: flex;
+    }
+     
+    footer p {
+       font-size: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .box {
+      width: 100%;
+      background-color:turquoise;
+    }
+
+    .banner {
+        background-size: 220vh;
+        max-height: 420px;
+    }
+
+    .banner-informacoes {
+        margin-right: 35px;
+        font-size: 1.5em;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20vh;
+        margin-left: 5vh;
+    }
+
+    .banner-informacoes p {
+        font-size: 0.75em;
+    }
+
+    .branding h1 {
+        font-size: 1.5em;
+    }
+
+    .Sobre-mim_habilidades {
+        margin-left: 5vh;   
+        display: block;
+        margin-right: 2vh;
+        max-width: 420px;
+    }
+
+    .Sobre-mim_habilidades_titulo h2 {
+        font-size: 1em;
+        margin-top: 30px;
+    }
+
+    .Sobre-mim_habilidades_titulo p {
+        margin-right: 1vh;
+        font-size: 1em;
+    }
+
+    .Sobre-mim_habilidades_item h3 {
+        margin-left: 4vh;
+        margin-top: -3vh;
+        font-size: 1.2em;
+    }
+
+    .Sobre-mim_habilidades_item  {
+        margin-left: -2vh;
+        margin-top: 0.5vh;
+        font-size: 0.8em;
+    }
+
+    .Sobre-mim_habilidades_item ul {
+        margin-left: 2vh;
+        margin-top: -1vh;
+    }
+
+    .redes-sociais {
+        padding-top: 2vh;
+        align-content: space-between;
+    }
+
+    .redes-sociais_item_facebook img {
+        max-width: 8vh;
+    }
+
+    .redes-sociais_item_linkedin img {
+        max-width: 8vh;
+    }
+    
+    .redes-sociais_item_instagram img {
+        max-width: 8vh;
+    }
+
+    .redes-sociais_item_cv img {
+        max-width: 8vh;
+    }
+
+    .redes-sociais_item_facebook {
+        margin-left: 4vh;
+    }
+
+    .sobre-mim {
+        max-width: 420px;
+        margin-right: 3px;
+        margin-left: 1vh;
+        display: flex;
+        margin-top: -8vh;
+    }
+     
+    footer p {
+       font-size: 10px;
+       margin-left: initial;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 474px) {
+    .box {
+      width: 100%;
+      background-color:turquoise;
+    }
+
+    .banner {
+        background-size: 100vh;
+        max-height: 370px;
+    }
+
+    .banner-informacoes {
+        margin-right: 35px;
+        font-size: 1.5em;
+        justify-content: center;
+        align-items: center;
+        padding-top: 13vh;
+        margin-left: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .banner-informacoes p {
+        font-size: 0.75em;
+    }
+
+    .branding h1 {
+        font-size: 1.5em;
+    }
+
+    .Sobre-mim_habilidades {
+        margin-left: 5vh;   
+        display: flex;
+        flex-direction: column;
+        margin-right: 2vh;
+        max-width: 470px;
+        margin-top: 7vh;
+    }
+
+    .Sobre-mim_habilidades_titulo h2 {
+        font-size: 1em;
+        margin-left: 1vh;
+    }
+
+    .Sobre-mim_habilidades_titulo p {
+        margin-right: 3vh;
+        font-size: 1em;
+        line-height: 2vh;
+        margin-top: 1vh;
+    }
+
+    .Sobre-mim_habilidades_item h3 {
+        margin-left: 3vh;
+        margin-top: -3vh;
+        font-size: 1.2em;
+    }
+
+    .Sobre-mim_habilidades_item  {
+        margin-left: -2vh;
+        margin-top: 0.5vh;
+        font-size: 0.8em;
+    }
+
+    .Sobre-mim_habilidades_item ul {
+        margin-left: 2vh;
+        margin-top: -1vh;
+        line-height: 2vh;
+    }
+
+    .redes-sociais {
+        padding-top: 2vh;
+        align-content: space-between;
+        padding-bottom: 2vh;
+    }
+
+    .redes-sociais_item_facebook img {
+        max-width: 6vh;
+    }
+
+    .redes-sociais_item_linkedin img {
+        max-width: 6vh;
+    }
+    
+    .redes-sociais_item_instagram img {
+        max-width: 6vh;
+    }
+
+    .redes-sociais_item_cv img {
+        max-width: 6vh;
+    }
+
+    .redes-sociais_item_facebook {
+        margin-left: 6.5xvh;
+        margin-right: 4vh;
+    }
+
+    .redes-sociais_item_linkedin {
+        margin-right: 4vh;
+    }
+
+    .redes-sociais_item_instagram {
+        margin-left: 6.5vh;
+        padding-top: 4vh;
+        margin-right: 4vh;
+    }
+
+    .redes-sociais_item_cv {
+        padding-top: 4vh;
+
+    }
+
+    .sobre-mim {
+        max-width: 420px;
+        margin-right: 3px;
+        margin-left: 1vh;
+        display: flex;
+        margin-top: -8vh;
+    }
+     
+    footer p {
+       font-size: 10px;
+       margin-left: initial;
+    }
+}
+
+@media (max-width: 375px) {
+    .box {
+      width: 100%;
+      background-color:turquoise;
+    }
+
+    .banner {
+        background-size: 100vh;
+        max-height: 370px;
+    }
+
+    .banner-informacoes {
+        margin-right: 35px;
+        font-size: 1.5em;
+        justify-content: center;
+        align-items: center;
+        padding-top: 13vh;
+        margin-left: 5vh;
+    }
+
+    .banner-informacoes p {
+        font-size: 0.75em;
+    }
+
+    .branding h1 {
+        font-size: 1.5em;
+    }
+
+    .Sobre-mim_habilidades {
+        margin-left: 5vh;   
+        display: block;
+        margin-right: 2vh;
+        max-width: 420px;
+    }
+
+    .Sobre-mim_habilidades_titulo h2 {
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    .Sobre-mim_habilidades_titulo p {
+        margin-right: 3vh;
+        font-size: 1em;
+    }
+
+    .Sobre-mim_habilidades_item h3 {
+        margin-left: 5vh;
+        margin-top: -3vh;
+        font-size: 1.2em;
+    }
+
+    .Sobre-mim_habilidades_item  {
+        margin-left: -2vh;
+        margin-top: 0.5vh;
+        font-size: 0.8em;
+    }
+
+    .Sobre-mim_habilidades_item ul {
+        margin-left: 2vh;
+        margin-top: -1vh;
+    }
+
+    .redes-sociais {
+        padding-top: 2vh;
+        align-content: space-between;
+        padding-bottom: 2vh;
+    }
+
+    .redes-sociais_item_facebook img {
+        max-width: 5vh;
+    }
+
+    .redes-sociais_item_linkedin img {
+        max-width: 5vh;
+    }
+    
+    .redes-sociais_item_instagram img {
+        max-width: 5vh;
+    }
+
+    .redes-sociais_item_cv img {
+        max-width: 5vh;
+    }
+
+    .redes-sociais_item_facebook {
+        margin-left: 8vh;
+    }
+
+    .redes-sociais_item_instagram {
+        margin-left: 8vh;
+        padding-top: 4vh;
+    }
+
+    .redes-sociais_item_cv {
+        padding-top: 4vh;
+    }
+
+    .sobre-mim {
+        max-width: 420px;
+        margin-right: 3px;
+        margin-left: 1vh;
+        display: flex;
+        margin-top: -8vh;
+    }
+     
+    footer p {
+       font-size: 10px;
+       margin-left: initial;
+    }
+}
+
+
+   
+
+   
